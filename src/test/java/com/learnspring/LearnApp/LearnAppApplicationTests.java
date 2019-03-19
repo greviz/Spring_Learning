@@ -18,7 +18,7 @@ public class LearnAppApplicationTests {
 	@Test
 	public void test() {
 
-		assertEquals("Hello Worldd",hello.getHelloWorld());
+		assertEquals("Hello World",hello.getHelloWorld());
 
 
 	}
