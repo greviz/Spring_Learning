@@ -1,5 +1,6 @@
 package com.learnspring.LearnApp;
 
+import com.learnspring.LearnApp.controller.GreetingController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,15 +13,11 @@ import static junit.framework.TestCase.assertEquals;
 @SpringBootTest
 public class LearnAppApplicationTests {
 
-	@Autowired
-	private HelloWorldClass hello;
-
-	@Test
-	public void test() {
-
-		assertEquals("Hello World",hello.getHelloWorld());
 
 
-	}
+    @Test
+    public void contextLoads() {
+    }
+
 
 }
